@@ -10,10 +10,10 @@ link=supergirl.xls,Title,Image
 [box_border]=#FFcc00
 [white]=#FDFDFD
 
-cards=24
+cards=48
 CARDSIZE=[happycardsiz]
 BORDER=ROUNDED,[box_border],0.02
-#PAGE=21.59,27.94,LANDSCAPE,HV
+PAGE=21.59,27.94,LANDSCAPE,HV
 
 image=[all],[image],1%,1%,99%,99%,0,PN
 
