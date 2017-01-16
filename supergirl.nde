@@ -1,10 +1,11 @@
 link=supergirl.xls,Title,Image
 [happycardsiz]=2.89,3.47
+[biggercardsiz]=3.5,4.95
 
-[all]="1-60"
+[all]="1-64"
 [fronts]="1-24"
-[backs]="37-60"
-[blanks]="25-36"
+[backs]="41-64"
+[blanks]="25-40"
 [back]=#FF0000#FFFF00#55FF55
 [front]=#000000#00FF00#CCCCCC
 [nicey]=#2233dd#0044cc#5511bb
@@ -12,8 +13,8 @@ link=supergirl.xls,Title,Image
 [box_border]=#FFcc00
 [white]=#FDFDFD
 
-cards=60
-CARDSIZE=[happycardsiz]
+cards=64
+CARDSIZE=[biggercardsiz]
 PAGE=19,24,PORTRAIT,HV
 BORDER=ROUNDED,[box_border],0.02
 
