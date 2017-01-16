@@ -1,23 +1,35 @@
 link=supergirl.xls,Title,Image
 [happycardsiz]=2.89,3.47
 
-[all]="1-24"
+[all]="1-60"
 [fronts]="1-24"
+[backs]="37-60"
+[blanks]="25-36"
 [back]=#FF0000#FFFF00#55FF55
 [front]=#000000#00FF00#CCCCCC
-[nicey]=#FFcccc#FFFF00#ffcc00
+[nicey]=#2233dd#0044cc#5511bb
 [box_back]=#223377
 [box_border]=#FFcc00
 [white]=#FDFDFD
 
-cards=48
+cards=60
 CARDSIZE=[happycardsiz]
+PAGE=19,24,PORTRAIT,HV
 BORDER=ROUNDED,[box_border],0.02
-PAGE=21.59,27.94,LANDSCAPE,HV
 
-image=[all],[image],1%,1%,99%,99%,0,PN
+rectangle=[fronts],0,0,100%,100%,[nicey]
+rectangle=[backs],0,0,100%,100%,[nicey]
+
+image=[fronts],[image],1%,1%,99%,99%,0,PN
 
 font="Arial",11,TB,#ffFF00
 text=[fronts],[title],0,0,100%,10%,center,center,0,90,0.1
 font="Arial",11,TB,#000000
-text=[all],[title],0,0,100%,10%,center,center
+text=[fronts],[title],0,0,100%,10%,center,center
+
+font="Arial",72,TB,#ff0000
+text=[backs],"?",0,0,100%,100%,center,center,0,90,0.6
+font="Arial",72,TB,#ffFF00
+text=[backs],"?",0,0,100%,100%,center,center,0,90,0.4
+font="Arial",72,TB,#000000
+text=[backs],"?",0,0,100%,100%,center,center
